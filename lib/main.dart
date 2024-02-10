@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter/101/button_learn.dart';
 import 'package:learn_flutter/101/container_sized_box.dart';
 import 'package:learn_flutter/101/scaffold_learn.dart';
 import 'package:learn_flutter/101/text_learn.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ScaffoldLearnView(),
+      home: const ButtonLearn(),
     );
   }
 }
