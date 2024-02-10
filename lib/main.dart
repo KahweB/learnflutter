@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:learn_flutter/101/app_bar.dart';
 import 'package:learn_flutter/101/button_learn.dart';
+import 'package:learn_flutter/101/color_learn.dart';
 import 'package:learn_flutter/101/container_sized_box.dart';
 import 'package:learn_flutter/101/icon_learn.dart';
 import 'package:learn_flutter/101/scaffold_learn.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
               systemOverlayStyle: SystemUiOverlayStyle.light,
               backgroundColor: Colors.transparent,
               elevation: 0)),
-      home: IconLearnView(),
+      home: ColorLearn(),
     );
   }
 }
